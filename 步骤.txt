@@ -1,0 +1,14 @@
+1. 命令行创建npm的配置文件
+   npm init
+2. 添加一个gulp的依赖
+  npm install gulp --save-dev
+3. 在项目根目录下添加一个gulpfile.js文件，这个是gulp的主文件，这个文件名是固定的
+4. 在gulpfile中抽象我们需要做的任务
+5, 在项目根目录下建立src的目录文件夹，src下建立index.html
+6,安装包插件：npm install gulp-less --save-dev    编译成css
+            npm install gulp-concat --save-dev  合并
+	    npm install gulp-uglify --save-dev  js混淆
+            npm install gulp-cssnano --save-dev  css压缩     
+            npm install htmlmin --save-dev  html压缩
+7，在gulpfile.js文件里写js调用api执行自动化
+       

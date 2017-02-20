@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+body, h1, h2, h3, p{margin:0;}ol,ul{margin:0; padding:0;list-style: none;}
+a{text-decoration: none;color:#333;}
+body{
+    font-family: Arial, "微软雅黑";
+}
+img{
+    border:none;
+}
+input{
+    outline: 0;
+}
+.clearfix{
+	zoom:1;
+	&:before,&:after{
+		content:"";
+    	display:table;
+    	height:0;
+    	overflow: hidden;
+	}
+	&:after{
+		clear:both;
+	}
+}
